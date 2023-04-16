@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Test Médico</h1>
+        <p>Test de depresión</p>
+    </header>
+    <div class="container">
+        <section id="p0">
+            <h3>1 - ¿tas triste bro?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Never pai como se le ocurre
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> En ocasiones, pero pues aja
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Muchas veces la verdad
+            </label>
+            <label>
+                <input type="radio" value="4" name="p0" onclick="respuesta(0,this)"> Siempre sad por ella :c
+            </label>
+        </section>
+        <section id="p1">
+            <h3>2 - ¿estas desganadito bro?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Never pai como se le ocurre
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> En ocasiones, pero pues aja
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Muchas veces la verdad
+            </label>
+            <label>
+                <input type="radio" value="4" name="p1" onclick="respuesta(1,this)"> Siempre sad por ella :c
+            </label>
+        </section>
+        <section id="p2">
+            <h3>3 - ¿te concentras bro?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Never pai como se le ocurre
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> En ocasiones, pero pues aja
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> Muchas veces la verdad
+            </label>
+            <label>
+                <input type="radio" value="4" name="p2" onclick="respuesta(2,this)"> Siempre sad por ella :c
+            </label>
+        </section>
+        <section id="p3">
+            <h3>4 - ¿dasokf bro?</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Never pai como se le ocurre
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> En ocasiones, pero pues aja
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Muchas veces la verdad
+            </label>
+            <label>
+                <input type="radio" value="4" name="p3" onclick="respuesta(3,this)"> Siempre sad por ella :c
+            </label>
+        </section>
+        <section id="p4">
+            <h3>5 - ¿bro?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Never pai como se le ocurre
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> En ocasiones, pero pues aja
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Muchas veces la verdad
+            </label>
+            <label>
+                <input type="radio" value="4" name="p4" onclick="respuesta(4,this)"> Siempre sad por ella :c
+            </label>
+        </section>
+
+        <button onclick="revisar()">REVISAR</button>
+        <h2>Diagnostico: <span id="resultado"></span></h2>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
